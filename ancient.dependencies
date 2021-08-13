@@ -1,13 +1,15 @@
 [
   {
-    "remote": "devices",
-    "repository": "vendor_xiaomi_ysl",
-    "target_path": "vendor/xiaomi/ysl"
+    "remote": "github"
+    "repository": "Dustxyz/vendor_xiaomi_ysl",
+    "target_path": "vendor/xiaomi/ysl",
+    "branch": "eleven"
   },
   {
-    "remote": "devices",
-    "repository": "kernel_xiaomi_ysl",
+    "remote": "github",
+    "repository": "Noob-214/Logan_Ysl",
     "target_path": "kernel/xiaomi/ysl"
+    "branch": "xr"
   },
   {
     "repository": "Jabiyeff/android_hardware_qcom_display",
