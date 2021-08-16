@@ -2,7 +2,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- AncientOS Device Info -->
+    <!-- Smart Charging support -->
     <bool name="config_supportSmartCharging">true</bool>
     <bool name="config_supportBatteryHealth">true</bool>
 
