@@ -35,8 +35,9 @@ TARGET_BOOT_ANIMATION_RES := 720
 
 # Ancient identifier
 ANCIENT_OFFICIAL := true
-ANCIENT_GAPPS := true
+ANCIENT_GAPPS := false
 TARGET_USES_BLUR =: true
+
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
