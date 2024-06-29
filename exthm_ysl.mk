@@ -28,20 +28,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system_ext.mk)
 $(call inherit-product, device/xiaomi/ysl/device.mk)
 
 # Inherit some common Ancient stuff.
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+$(call inherit-product, vendor/exthm/config/common_full_phone.mk)
 
 # Inherit some common flags
 TARGET_BOOT_ANIMATION_RES := 720
 
-# Ancient identifier
-ANCIENT_OFFICIAL := true
-ANCIENT_GAPPS := false
-TARGET_USES_BLUR =: true
-
-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ysl
-PRODUCT_NAME := ancient_ysl
+PRODUCT_NAME := exthm_ysl
 BOARD_VENDOR := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi S2

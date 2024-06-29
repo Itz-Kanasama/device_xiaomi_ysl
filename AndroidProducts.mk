@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_ysl.mk
+    $(LOCAL_DIR)/exthm_ysl.mk
 
 COMMON_LUNCH_CHOICES := \
-    ancient_ysl-user \
-    ancient_ysl-userdebug \
-    ancient_ysl-eng
+    exthm_ysl-user \
+    exthm_ysl-userdebug \
+    exthm_ysl-eng
